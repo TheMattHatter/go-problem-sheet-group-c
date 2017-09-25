@@ -33,6 +33,6 @@ func facDigitSum(x int) int {
 }
 
 func main() {
-        var a int = 0             // Value we want the factorial digit sum of
+        var a int = 0               // Value we want the factorial digit sum of
         fmt.Println(facDigitSum(a)) // Calls function and prints answer
 }
