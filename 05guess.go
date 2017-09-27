@@ -39,8 +39,8 @@ func main() {
 			fmt.Println("Oops That's not a number!")
 		}
 
-		prevGuess = guess
+		prevGuess = guess // Store previous try
 	}
 
-	fmt.Printf("Wow it took you %d tries!\n", numOfTries)
+	fmt.Printf("Wow it took you %d tries!\n", numOfTries) // Print tries
 }
