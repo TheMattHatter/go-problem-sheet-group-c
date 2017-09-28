@@ -1,6 +1,6 @@
 // Author: Matthew Shiel
 // Date: 28-09-2017
-// Go problem 06: GLargest and Smallest Int
+// Go problem 06: Largest and Smallest Int
 
 package main
 
