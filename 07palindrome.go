@@ -7,9 +7,12 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func isPalindrome(input string) bool {
+	// Change to lower case to solve case insensitivity
+	input = strings.ToLower(input)
 	// Loop half the word
 	for i := 0; i < len(input)/2; i++ {
 		// Compare front letter and corresponding end letter of the string
