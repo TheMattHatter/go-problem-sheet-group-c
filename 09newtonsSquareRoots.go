@@ -1,6 +1,6 @@
 // Author: Matthew Shiel
 // Date: 01-10-2017
-// Go problem 08: Merge List and Sort
+// Go problem 09: Netwon's Square Root
 // Adapted from 9. on https://data-representation.github.io/problems/go-fundamentals.html
 
 package main
