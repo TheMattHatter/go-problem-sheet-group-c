@@ -1,7 +1,8 @@
 // Author: Matthew Shiel
 // Date: 01-10-2017
 // Go problem 10: Reverse String
-// Adapted from https://stackoverflow.com/questions/1752414/how-to-reverse-a-string-in-go
+// Adapted from https://stackoverflow.com/questions/1752414/how-to-reverse-a-string-in-
+// Adapted from https://rosettacode.org/wiki/Reverse_a_string#Go
 
 package main
 
@@ -16,12 +17,15 @@ func main() {
 }
 
 func reverse(s string) string {
-	// Assume input is  an ASCII UTF-8 encoded string
-	// create an array of runes and loop for the length of the string/array
-	runes := []rune(s)
-    for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-
-        runes[i], runes[j] = runes[j], runes[i]
-    }
-    return string(runes)
+	// input should be ASCII UTF-8 encoded string
+	// create an array of runes
+	r := make([]rune, len(s))
+	l := len(s)
+	// Loop and add runes to r array
+    for _, rune := range s {
+		l--
+		r[l] = rune
+	}
+	// Return reversed string
+    return string(r)
 }
