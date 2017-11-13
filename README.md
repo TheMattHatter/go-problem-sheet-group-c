@@ -10,13 +10,13 @@ These are my set of completed programs to the problems from https://data-represe
 
 **1. Clone the Repository**
 ```bash
-> git clone https://github.com/mattshiel/go-problem-sheet-group-c.git
+> git clone https://github.com/mattshiel/01-go-problem-sheet.git
 ```
 **2. Change Directory to the Folder**
 
 ```bash
 Open the terminal/command line and navigate into the folder 
-eg. > cd go-problem-sheet-group-c
+eg. > cd 01-go-problem-sheet
 ```
 
 **2. Compile the Program**
